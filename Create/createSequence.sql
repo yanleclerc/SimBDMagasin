@@ -1,0 +1,23 @@
+CREATE SEQUENCE numReference 
+Start WITH 1 
+INCREMENT by 1;
+
+CREATE SEQUENCE numCommande
+Start WITH 1 
+INCREMENT by 1;
+
+CREATE SEQUENCE codeZebre
+Start WITH 1 
+INCREMENT by 1;
+
+CREATE SEQUENCE codeIndividu
+Start WITH 1 
+INCREMENT by 1;
+
+CREATE SEQUENCE numLivraisons 
+Start WITH 1 
+INCREMENT by 1;
+
+CREATE SEQUENCE numPaiement
+START WITH 1
+INCREMENT BY 1;

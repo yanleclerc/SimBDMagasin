@@ -1,0 +1,14 @@
+// Pour afficher toutes les tables dans la BD
+select table_name from user_tables;
+
+//Pour afficher les attributs d'une table dans la BD
+describe [nom de la table || nom de la view];
+
+//Pour afficher les noms des triggers dans la BD
+select trigger_name from user_triggers;
+
+//Pour afficher les noms des sequences dans la BD
+select sequence_name from user_sequences;
+
+//Pour contrôler l'affichage des données
+set linesize 200(par exemple)
